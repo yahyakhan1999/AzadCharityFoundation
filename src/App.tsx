@@ -12,7 +12,7 @@ function App() {
           <img src={donateLogo} className="logo react" alt="Donate logo" />
         </a>
         <a href="https://react.dev" target="_blank">
-          <img src="/azadLogo.png" className="logo react" alt="Azad Logo" />
+          <img src="/AzadCharityFoundation/azadLogo.png" className="logo react" alt="Azad Logo" />
         </a>
       </div>
       <h1>Azad Charity Foundation</h1>
