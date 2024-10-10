@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import azadLogo from '/azadLogo.png'
 import donateLogo from '/donate.gif'
 import './App.css'
 
@@ -10,10 +9,10 @@ function App() {
     <>
       <div>
         <a href="https://vitejs.dev" target="_blank">
-          <img src={donateLogo} className="logo" alt="Donate logo" />
+          <img src={donateLogo} className="logo react" alt="Donate logo" />
         </a>
         <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src="/azadLogo.png" className="logo react" alt="Azad Logo" />
         </a>
       </div>
       <h1>Azad Charity Foundation</h1>
