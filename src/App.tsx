@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useState } from 'react';
 import donateLogo from '/donate.gif';
-import azadLogo from 'azadLogo.png';
+import azadLogo from '/azadLogo.png';
 
 import './App.css';
 import DonatePage from './DonatePage'; // Ensure this path is correct
