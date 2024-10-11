@@ -22,14 +22,19 @@ function App() {
       
       {/* Donation form embed */}
       <div style={{ position: 'relative', overflow: 'hidden', height: '1200px', width: '100%' }}>
-        <iframe 
-          title='Donation form powered by Zeffy' 
-          style={{ position: 'absolute', border: 0, top: 0, left: 0, bottom: 0, right: 0, width: '100%', height: '100%' }} 
-          src='https://www.zeffy.com/embed/donation-form/6c862652-07a0-4d86-86a6-bd5a992acd93' 
-          allowPaymentRequest 
+      <div dangerouslySetInnerHTML={{ __html: `
+        <iframe
+          title="Donation form powered by Zeffy"
+          style="position: absolute; border: 0; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%;"
+          src="https://www.zeffy.com/embed/donation-form/6c862652-07a0-4d86-86a6-bd5a992acd93"
+          allowPaymentRequest="true"
           allowTransparency="true"
         ></iframe>
-      </div>
+      ` }} />
+    </div>
+
+
+
 
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
