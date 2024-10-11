@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useState } from 'react';
 import donateLogo from '/donate.gif';
+import azadLogo from 'azadLogo.png';
+
 import './App.css';
 import DonatePage from './DonatePage'; // Ensure this path is correct
 import AboutPage from './AboutPage';   // Ensure this path is correct
@@ -15,7 +17,7 @@ function App() {
           <img src={donateLogo} className="logo react" alt="Donate logo" />
         </Link>
         <Link to="/about">
-          <img src="/AzadCharityFoundation/azadLogo.png" className="logo react" alt="Azad Logo" />
+          <img src={azadLogo} className="logo react" alt="Azad Logo" />
         </Link>
       </div>
       <h1>Azad Charity Foundation</h1>
