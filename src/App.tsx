@@ -19,6 +19,18 @@ function App() {
         </Link>
       </div>
       <h1>Azad Charity Foundation</h1>
+      
+      {/* Donation form embed */}
+      <div style={{ position: 'relative', overflow: 'hidden', height: '1200px', width: '100%' }}>
+        <iframe 
+          title='Donation form powered by Zeffy' 
+          style={{ position: 'absolute', border: 0, top: 0, left: 0, bottom: 0, right: 0, width: '100%', height: '100%' }} 
+          src='https://www.zeffy.com/embed/donation-form/6c862652-07a0-4d86-86a6-bd5a992acd93' 
+          allowPaymentRequest 
+          allowTransparency="true"
+        ></iframe>
+      </div>
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -28,7 +40,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Donate and AzadCharityFoundation icons to learn more
+        Click on the Donate and Azad Charity Foundation icons to learn more
       </p>
 
       <Routes>
