@@ -5,7 +5,7 @@ const DonatePage: React.FC = () => {
   return (
     <div className="donate">
       <h1>Donate to Azad Charity Foundation</h1>
-
+      
       <section>
         <h2>Donation Process</h2>
         <p>
