@@ -2,13 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/azadLogo.png" />
-
+    <link rel="icon" type="image/png" href="/azadLogo.png" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Azad Charity Foundation</title>
     
     <!-- Add the base tag here -->
     <base href="/" />
+
+    <!-- Add your Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self'; 
+        script-src 'self' https://api.crowdhandler.com https://cdnjs.cloudflare.com 'unsafe-inline'; 
+        connect-src 'self' https://api.yourapi.com; 
+        img-src 'self' data:; 
+        style-src 'self' 'unsafe-inline'; 
+        frame-src 'self' https://www.zeffy.com https://donorbox.org;
+    ">
     <script type="module" crossorigin src="/assets/index-CLildIpA.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CdIpHpli.css">
   </head>
